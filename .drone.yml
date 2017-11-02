@@ -5,5 +5,6 @@ build:
   shell: msys64
   pull: true
   commands:
+    - pwd
     - npm install
     - npm run test:all
