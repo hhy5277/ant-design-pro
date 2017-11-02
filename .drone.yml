@@ -1,7 +1,7 @@
 # Build configuration for https://www.tea-ci.org
 
 build:
-  image: teaci/msys64
+  image: node:8.5.0
   shell: msys64
   pull: true
   commands:
