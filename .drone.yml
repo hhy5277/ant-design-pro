@@ -2,7 +2,6 @@
 
 build:
   image: node:8.5.0
-  shell: msys64
   pull: true
   commands:
     - uname -a
