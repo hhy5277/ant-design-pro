@@ -1,0 +1,8 @@
+# Build configuration for https://www.tea-ci.org
+
+build:
+  frontend:
+    image: node:8.5.0
+    commands:
+      - npm install
+      - npm test
